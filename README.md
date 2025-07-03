@@ -28,6 +28,7 @@ este repositório contém dois componentes principais:
 
 ## rodar server.py no terminal:
 pip install flask flask-socketio cryptography
+
 python server.py
 
 
