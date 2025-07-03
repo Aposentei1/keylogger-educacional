@@ -8,6 +8,14 @@ Este é um exemplo de keylogger feito com Python que:
 - Envia via WebSocket
 - (Opcional) Inicia com o sistema Windows
 
+
+
+este repositório contém dois componentes principais:
+
+- **Cliente (keylogger.py):** captura teclas, criptografa e envia via WebSocket para o servidor.  
+- **Servidor (server.py):** servidor Flask com Socket.IO que recebe, descriptografa e salva os logs.
+
+
 ## Instalação
 
  Instale o PyInstaller : pip install pyinstaller
